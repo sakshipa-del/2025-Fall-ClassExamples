@@ -1,10 +1,11 @@
-All: HelloWorld.class run
+All: HelloWorld.o run
 
-HelloWorld.class: HelloWorld.java
-	javac HelloWorld.java
-	
-run: HelloWorld.class
-	java HelloWorld
+HelloWorld.o: HelloWorld.cpp
+	g++ -c HelloWorld.cpp
+
+run: HelloWorld.o
+	g++ -o HelloWorld HelloWorld.o
+	./HelloWorld
 
 clean:
-	rm -f HelloWorld.class
+	rm -f HelloWorld.o HelloWorld
