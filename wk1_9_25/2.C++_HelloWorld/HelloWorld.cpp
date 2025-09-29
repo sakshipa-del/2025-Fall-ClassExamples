@@ -1,3 +1,9 @@
+// First simple demo
+// Date: 9/25/2025
+// Author: K. Sung
+// Purpose: Compare with Java HelloWorld
+//       Show basic input/output
+
 #include <iostream>
 using namespace std;
     // these two statements is equivalent to: 
