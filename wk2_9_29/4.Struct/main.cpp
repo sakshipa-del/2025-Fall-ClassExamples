@@ -1,5 +1,8 @@
 // Useless example to show what is a struct
 //
+// NOTE: there is no "new" keyword invovled in the following code?!
+//       where is the memory coming from: the boxes, or storage for the values of the variables. where are they from?
+//
 #include <iostream>
 using namespace std;
 
@@ -14,7 +17,7 @@ class MyClass {
         int b;
 };
 
-void PrintStruct(MyStruct s) {
+void PrintStruct(MyStruct s) {  // This is passing by value!
     cout << "From Function MyStruct: a=" << s.a << " b=" << s.b << endl;
 }
 

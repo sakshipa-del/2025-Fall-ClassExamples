@@ -12,7 +12,7 @@ struct MyStruct {
     int b;
 };
 
-void PrintStruct(string msg, MyStruct s) {
+void PrintStruct(string msg, MyStruct s) {  // passing by value!
     cout << msg << ": MyStruct: a=" << s.a << " b=" << s.b << endl;
 }
 
