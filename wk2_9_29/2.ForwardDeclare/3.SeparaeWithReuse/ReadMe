@@ -1,0 +1,26 @@
+Folder: 3.SeparateWithReuse
+Purpose: 
+    To demonstrate that different programs can be linked to the same .o file
+    to reuse the same function without redundant compilation.
+	There are two program source code files defined in this folder: prog1.cpp and prog2.cpp.
+	Both of the programs call func() function defined in f.cpp.
+	Note that, there is only one f.cpp file, which is compiled only once to produce f.o file.
+	Both prog1 and prog2 programs are linked to the same f.o file to produce two different executable files.
+	This way, we can reuse the same f.o file without recompiling f.cpp twice.
+	More importantly, if the func() function is changed, we only need to recompile f.cpp once.
+
+	prog1:
+		Calls func(4) and prints the result.
+		
+	prog2:
+		Receives an float from the command line, calls func() with that number, and prints the result.
+
+
+
+Files:
+	1. prog1.cpp	// this is the first program source code file
+	2. prog2.cpp	// this is the second program source code file
+	3. f.cpp		// this is the function source code file
+	4. f.h			// this is the include header file for f.cpp
+	5. Makefile		// Updated Makefile to compile and link two programs
+	6. ReadMe (this file)

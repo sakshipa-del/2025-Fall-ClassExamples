@@ -1,0 +1,23 @@
+Folder: 4.SeparateLocations
+Purpose: 
+    This folder and the subfolders contais the two programs that are exactly the same 
+	as the ones in the previous folder (3.SeparaeWithReuse). The point is to show that
+	the two programs can be in different locations (folders) and still linked to the same f.o
+	file to reuse the same function without redundant compilation.
+
+Subfolders:
+	Prog1:
+		source code for prog1 (prog1.cpp)
+		Makefile to compile and link prog1 (Makefile)
+
+	Prog2:
+		source code for prog2 (prog2.cpp)
+		Makefile to compile and link prog2 (Makefile)
+
+	Lib:
+		source code for f.cpp and f.h (f.cpp, f.h)
+		Makefile to compile f.cpp to produce f.o (Makefile)
+
+Exercise:
+    Modify func() to use the argument received as the radius and compute the 
+    area of a circle

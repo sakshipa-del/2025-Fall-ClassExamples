@@ -1,0 +1,11 @@
+Folder: 2.SeparateWithInclude 
+Purpose: 
+Example is modified so that the func() function prototype is defined in a separate
+header file that is included in the .cpp files that need them.
+This is a common practice in C++ programming to improve code organization and reusability.
+Files:
+	1. main.cpp
+	2. f.cpp
+	3. f.h		    // this is the new include header file
+    4. Makefile     // this is new, to show how to seek help from make 
+    5. ReadMe (this file)

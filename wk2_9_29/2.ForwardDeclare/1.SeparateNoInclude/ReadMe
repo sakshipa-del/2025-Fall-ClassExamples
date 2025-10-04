@@ -1,0 +1,15 @@
+Folder: 1.SeparateNoInclude 
+Purpose: 
+Example is modified to show the func() function can be defined in a separate file, 
+we can separately compile main.cpp and f.cpp (with -c options) and then
+link the .o files to create the executable program.
+
+// Compile and run:
+//      g++ -c main.cpp
+//      g++ -c f.cpp
+//      g++ -o prog main.o f.o
+
+Files:
+	1. main.cpp
+	2. f.cpp
+4. ReadMe (this file)
