@@ -41,7 +41,7 @@ bool detatch_right(int &num, int &right, int generation) {
     int left = num / BASE;
 #ifdef DEBUG
     string indent(generation, '\t');
-    cout << indent << "detatch_right: " << num << " into " << left << " and " << right << endl;
+    cerr << indent << "detatch_right: " << num << " into " << left << " and " << right << endl;
 #endif
     num = left;
     return (num > BASE); // return true if there are still more than one digit
@@ -57,7 +57,7 @@ int attach_left(int left, int num, int &base, int generation) {
     int result = base * left + num;
 #ifdef DEBUG
     string indent(generation, '\t');
-    cout << indent << "attch_to_left(" << base << "): " << left << " and " 
+    cerr << indent << "attch_to_left(" << base << "): " << left << " and " 
          << num << " into " << result << endl;
 #endif
     base = base * BASE;
@@ -80,7 +80,7 @@ int recurse_attach_left(int num, int &base, int &generation) {
     generation++;
 #ifdef DEBUG
     string indent(generation, '\t');
-    cout << indent << "reverse_left: " << num << " base:" << base << endl;
+    cerr << indent << "reverse_left: " << num << " base:" << base << endl;
 #endif
     if (!detatch_right(num, right_digit, generation)) 
         return attach_left(right_digit, num, base, generation);
@@ -111,7 +111,7 @@ int main(int argc, char* argv[]) {
     }
     cout << "Reverse with recursion attaching from the left: ";
 #ifdef DEBUG
-    cout << endl;
+    cerr << endl;
 #endif
     int use_num = user_input; // Reverse will alter its input num, passing my reference!
     cout << recurse_attach_left(use_num, base, generation) << endl;

@@ -1,7 +1,7 @@
 # Makefile for the KFS Example program
 
 # Define the object files for each of the two programs
-LIB = ./KFSLib/KFS.o
+LIB = ./KFSLib/KFS.a
 OBJ = KFSExample.o
 PROGRAM = kfs
 

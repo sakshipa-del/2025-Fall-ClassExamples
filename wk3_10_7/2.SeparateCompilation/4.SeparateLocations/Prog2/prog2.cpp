@@ -9,12 +9,18 @@
 
 #include "../Lib/f.h"  // Include the header file that contains the prototype of func
 
-int main()
+int main(int argc, char* argv[])
 {
 	float f = 0;
     cout << "This is prog2!" << endl;
-    cout << "Please enter any float number: ";
-    cin >> f;
+    if (argc > 1)
+        f = atof(argv[1]);
+    else
+    {
+        cout << "Please enter any float number: ";
+        cin >> f;
+    }
+    
     cout << "This is from prog2 with func(" << f << ")=" << func(f) << endl;
 
     return 0;

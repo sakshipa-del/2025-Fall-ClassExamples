@@ -16,7 +16,7 @@ Subfolders:
 
 	Lib:
 		source code for f.cpp and f.h (f.cpp, f.h)
-		Makefile to compile f.cpp to produce f.o (Makefile)
+		Makefile to compile f.cpp to produce f.a (Makefile)
 
 Exercise:
     Modify func() to use the argument received as the radius and compute the 
