@@ -2,10 +2,12 @@ Folder: KFSLib
 Porpose: This folder contains the SDK for KFSLib
 Files:
     1. KFS.h: This is the include file to be included for using the functionality in KFS.o
-    2. KFS.o: This is the library file, link with this to use the functionality
+    2. KFS.a: This is the library file, link with this to use the functionality
     3. DirList: This is an example program developed based on KFS.o for recursive listing of 
                 directory informaiton
 
 DirList usage:
     DirList          # no argument, will perform the function of:  ls -R
     DirList aFolder  # one argument, will perform the function of: ls -R aFolder
+
+Try testing DirList with testcases in wk3/MP3-TestCases
