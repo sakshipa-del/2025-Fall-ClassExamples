@@ -6,7 +6,6 @@
 // in separate folders. This is useful when multiple programs want
 // to share the same function(s). In this way, we can compile the function(s) only once
 
-
 #include "../Lib/f.h"  // Include the header file that contains the prototype of func
 
 int main(int argc, char* argv[])

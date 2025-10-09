@@ -13,7 +13,7 @@ Purpose:
 		Calls func(4) and prints the result.
 		
 	prog2:
-		Receives an float from the command line, calls func() with that number, and prints the result.
+		Receives a float from the command line, calls func() with that number, and prints the result.
 
 
 
