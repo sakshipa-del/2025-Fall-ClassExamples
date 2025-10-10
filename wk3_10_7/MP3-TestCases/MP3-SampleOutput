@@ -1,0 +1,251 @@
+Script started on 2025-10-10 12:44:52+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="153" LINES="12"]
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk3_10_7[?2004h[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ MP3[K[K[K3.WorkWithLibrary/KDS[K[KFSD[KLib/K[KDirList 3.WorkWithLibrary/FKS[K[K[KKFSTe[K[K[K[K[K
+KFSExample.cpp  KFSExample.o    KFSLib/         KFS_TestCase/   Makefile        kfs             
+[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList 3.WorkWithLibrary/KFS_TestCase/
+[?2004largc: 2
+Checking directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/3.WorkWithLibrary/KFS_TestCase/"
+Depth First Print (like the "ls -R" command):
+3.WorkWithLibrary/KFS_TestCase/: A/ B/ C/ 
+  3.WorkWithLibrary/KFS_TestCase/A: f1 f2 f3 
+    3.WorkWithLibrary/KFS_TestCase/A/f1: is a file
+    3.WorkWithLibrary/KFS_TestCase/A/f2: is a file
+    3.WorkWithLibrary/KFS_TestCase/A/f3: is a file
+  3.WorkWithLibrary/KFS_TestCase/B: D/ E/ F/ 
+    3.WorkWithLibrary/KFS_TestCase/B/D: f4 
+      3.WorkWithLibrary/KFS_TestCase/B/D/f4: is a file
+    3.WorkWithLibrary/KFS_TestCase/B/E: f5 f6 f7 
+      3.WorkWithLibrary/KFS_TestCase/B/E/f5: is a file
+      3.WorkWithLibrary/KFS_TestCase/B/E/f6: is a file
+      3.WorkWithLibrary/KFS_TestCase/B/E/f7: is a file
+    3.WorkWithLibrary/KFS_TestCase/B/F: f8 G/ 
+      3.WorkWithLibrary/KFS_TestCase/B/F/f8: is a file
+      3.WorkWithLibrary/KFS_TestCase/B/F/G: f10 f9 
+        3.WorkWithLibrary/KFS_TestCase/B/F/G/f10: is a file
+        3.WorkWithLibrary/KFS_TestCase/B/F/G/f9: is a file
+  3.WorkWithLibrary/KFS_TestCase/C: is empty
+-----------
+
+Breadth First Print (an alternative way of printing):
+3.WorkWithLibrary/KFS_TestCase/: A/ B/ C/ 
+  3.WorkWithLibrary/KFS_TestCase/A: f1 f2 f3 
+  3.WorkWithLibrary/KFS_TestCase/B: D/ E/ F/ 
+  3.WorkWithLibrary/KFS_TestCase/C: is empty
+    3.WorkWithLibrary/KFS_TestCase/A/f1: is a file
+    3.WorkWithLibrary/KFS_TestCase/A/f2: is a file
+    3.WorkWithLibrary/KFS_TestCase/A/f3: is a file
+    3.WorkWithLibrary/KFS_TestCase/B/D: f4 
+    3.WorkWithLibrary/KFS_TestCase/B/E: f5 f6 f7 
+    3.WorkWithLibrary/KFS_TestCase/B/F: f8 G/ 
+      3.WorkWithLibrary/KFS_TestCase/B/D/f4: is a file
+      3.WorkWithLibrary/KFS_TestCase/B/E/f5: is a file
+      3.WorkWithLibrary/KFS_TestCase/B/E/f6: is a file
+      3.WorkWithLibrary/KFS_TestCase/B/E/f7: is a file
+      3.WorkWithLibrary/KFS_TestCase/B/F/f8: is a file
+      3.WorkWithLibrary/KFS_TestCase/B/F/G: f10 f9 
+        3.WorkWithLibrary/KFS_TestCase/B/F/G/f10: is a file
+        3.WorkWithLibrary/KFS_TestCase/B/F/G/f9: is a file
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk3_10_7[?2004h[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList 3.WorkWithLibrary/KFS_TestCase/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KMP3-
+MP3-SampleOutput  MP3-TestCases/    
+[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList MP3-TestCases/TestCase
+TestCase1/ TestCase2/ TestCase3/ TestCase4/ TestCase5/ TestCase6/ TestCase7/ 
+[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList MP3-TestCases/TestCase1
+[?2004largc: 2
+Checking directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase1"
+Depth First Print (like the "ls -R" command):
+MP3-TestCases/TestCase1: is empty
+-----------
+
+Breadth First Print (an alternative way of printing):
+MP3-TestCases/TestCase1: is empty
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk3_10_7[?2004h[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList MP3-TestCases/TestCase1[K2
+[?2004largc: 2
+Checking directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase2"
+Depth First Print (like the "ls -R" command):
+MP3-TestCases/TestCase2: f1 
+  MP3-TestCases/TestCase2/f1: is a file
+-----------
+
+Breadth First Print (an alternative way of printing):
+MP3-TestCases/TestCase2: f1 
+  MP3-TestCases/TestCase2/f1: is a file
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk3_10_7[?2004h[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList MP3-TestCases/TestCase2[K3
+[?2004largc: 2
+Checking directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase3"
+Depth First Print (like the "ls -R" command):
+MP3-TestCases/TestCase3: A/ 
+  MP3-TestCases/TestCase3/A: is empty
+-----------
+
+Breadth First Print (an alternative way of printing):
+MP3-TestCases/TestCase3: A/ 
+  MP3-TestCases/TestCase3/A: is empty
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk3_10_7[?2004h[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList MP3-TestCases/TestCase3[K4
+[?2004largc: 2
+Checking directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase4"
+Depth First Print (like the "ls -R" command):
+MP3-TestCases/TestCase4: A/ B/ C/ D E 
+  MP3-TestCases/TestCase4/A: is empty
+  MP3-TestCases/TestCase4/B: is empty
+  MP3-TestCases/TestCase4/C: is empty
+  MP3-TestCases/TestCase4/D: is a file
+  MP3-TestCases/TestCase4/E: is a file
+-----------
+
+Breadth First Print (an alternative way of printing):
+MP3-TestCases/TestCase4: A/ B/ C/ D E 
+  MP3-TestCases/TestCase4/A: is empty
+  MP3-TestCases/TestCase4/B: is empty
+  MP3-TestCases/TestCase4/C: is empty
+  MP3-TestCases/TestCase4/D: is a file
+  MP3-TestCases/TestCase4/E: is a file
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk3_10_7[?2004h[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList MP3-TestCases/TestCase4[K5
+[?2004largc: 2
+Checking directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase5"
+Depth First Print (like the "ls -R" command):
+MP3-TestCases/TestCase5: A/ B/ C/ 
+  MP3-TestCases/TestCase5/A: f1 f2 f3 
+    MP3-TestCases/TestCase5/A/f1: is a file
+    MP3-TestCases/TestCase5/A/f2: is a file
+    MP3-TestCases/TestCase5/A/f3: is a file
+  MP3-TestCases/TestCase5/B: D/ E/ F/ 
+    MP3-TestCases/TestCase5/B/D: f4 
+      MP3-TestCases/TestCase5/B/D/f4: is a file
+    MP3-TestCases/TestCase5/B/E: f5 f6 f7 
+      MP3-TestCases/TestCase5/B/E/f5: is a file
+      MP3-TestCases/TestCase5/B/E/f6: is a file
+      MP3-TestCases/TestCase5/B/E/f7: is a file
+    MP3-TestCases/TestCase5/B/F: f8 G/ 
+      MP3-TestCases/TestCase5/B/F/f8: is a file
+      MP3-TestCases/TestCase5/B/F/G: f10 f9 
+        MP3-TestCases/TestCase5/B/F/G/f10: is a file
+        MP3-TestCases/TestCase5/B/F/G/f9: is a file
+  MP3-TestCases/TestCase5/C: is empty
+-----------
+
+Breadth First Print (an alternative way of printing):
+MP3-TestCases/TestCase5: A/ B/ C/ 
+  MP3-TestCases/TestCase5/A: f1 f2 f3 
+  MP3-TestCases/TestCase5/B: D/ E/ F/ 
+  MP3-TestCases/TestCase5/C: is empty
+    MP3-TestCases/TestCase5/A/f1: is a file
+    MP3-TestCases/TestCase5/A/f2: is a file
+    MP3-TestCases/TestCase5/A/f3: is a file
+    MP3-TestCases/TestCase5/B/D: f4 
+    MP3-TestCases/TestCase5/B/E: f5 f6 f7 
+    MP3-TestCases/TestCase5/B/F: f8 G/ 
+      MP3-TestCases/TestCase5/B/D/f4: is a file
+      MP3-TestCases/TestCase5/B/E/f5: is a file
+      MP3-TestCases/TestCase5/B/E/f6: is a file
+      MP3-TestCases/TestCase5/B/E/f7: is a file
+      MP3-TestCases/TestCase5/B/F/f8: is a file
+      MP3-TestCases/TestCase5/B/F/G: f10 f9 
+        MP3-TestCases/TestCase5/B/F/G/f10: is a file
+        MP3-TestCases/TestCase5/B/F/G/f9: is a file
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk3_10_7[?2004h[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList MP3-TestCases/TestCase5[K6
+[?2004largc: 2
+Checking directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase6"
+Depth First Print (like the "ls -R" command):
+MP3-TestCases/TestCase6: A/ B/ C/ D E 
+  MP3-TestCases/TestCase6/A: F 
+    MP3-TestCases/TestCase6/A/F: is a file
+  MP3-TestCases/TestCase6/B: G/ 
+    MP3-TestCases/TestCase6/B/G: H I 
+      MP3-TestCases/TestCase6/B/G/H: is a file
+      MP3-TestCases/TestCase6/B/G/I: is a file
+  MP3-TestCases/TestCase6/C: J K 
+    MP3-TestCases/TestCase6/C/J: is a file
+    MP3-TestCases/TestCase6/C/K: is a file
+  MP3-TestCases/TestCase6/D: is a file
+  MP3-TestCases/TestCase6/E: is a file
+-----------
+
+Breadth First Print (an alternative way of printing):
+MP3-TestCases/TestCase6: A/ B/ C/ D E 
+  MP3-TestCases/TestCase6/A: F 
+  MP3-TestCases/TestCase6/B: G/ 
+  MP3-TestCases/TestCase6/C: J K 
+  MP3-TestCases/TestCase6/D: is a file
+  MP3-TestCases/TestCase6/E: is a file
+    MP3-TestCases/TestCase6/A/F: is a file
+    MP3-TestCases/TestCase6/B/G: H I 
+    MP3-TestCases/TestCase6/C/J: is a file
+    MP3-TestCases/TestCase6/C/K: is a file
+      MP3-TestCases/TestCase6/B/G/H: is a file
+      MP3-TestCases/TestCase6/B/G/I: is a file
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk3_10_7[?2004h[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ 3.WorkWithLibrary/KFSLib/DirList MP3-TestCases/TestCase6[K7
+[?2004largc: 2
+Checking directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk3_10_7/MP3-TestCases/TestCase7"
+Depth First Print (like the "ls -R" command):
+MP3-TestCases/TestCase7: A/ B/ C/ f1 f2 
+  MP3-TestCases/TestCase7/A: D/ E/ f4 
+    MP3-TestCases/TestCase7/A/D: f5 f6 f7 J/ K/ L/ 
+      MP3-TestCases/TestCase7/A/D/f5: is a file
+      MP3-TestCases/TestCase7/A/D/f6: is a file
+      MP3-TestCases/TestCase7/A/D/f7: is a file
+      MP3-TestCases/TestCase7/A/D/J: is empty
+      MP3-TestCases/TestCase7/A/D/K: is empty
+      MP3-TestCases/TestCase7/A/D/L: is empty
+    MP3-TestCases/TestCase7/A/E: f7 f8 
+      MP3-TestCases/TestCase7/A/E/f7: is a file
+      MP3-TestCases/TestCase7/A/E/f8: is a file
+    MP3-TestCases/TestCase7/A/f4: is a file
+  MP3-TestCases/TestCase7/B: F/ G/ H/ 
+    MP3-TestCases/TestCase7/B/F: is empty
+    MP3-TestCases/TestCase7/B/G: M/ N/ 
+      MP3-TestCases/TestCase7/B/G/M: f9 
+        MP3-TestCases/TestCase7/B/G/M/f9: is a file
+      MP3-TestCases/TestCase7/B/G/N: is empty
+    MP3-TestCases/TestCase7/B/H: f10 f11 f12 f13 
+      MP3-TestCases/TestCase7/B/H/f10: is a file
+      MP3-TestCases/TestCase7/B/H/f11: is a file
+      MP3-TestCases/TestCase7/B/H/f12: is a file
+      MP3-TestCases/TestCase7/B/H/f13: is a file
+  MP3-TestCases/TestCase7/C: I/ 
+    MP3-TestCases/TestCase7/C/I: f14 
+      MP3-TestCases/TestCase7/C/I/f14: is a file
+  MP3-TestCases/TestCase7/f1: is a file
+  MP3-TestCases/TestCase7/f2: is a file
+-----------
+
+Breadth First Print (an alternative way of printing):
+MP3-TestCases/TestCase7: A/ B/ C/ f1 f2 
+  MP3-TestCases/TestCase7/A: D/ E/ f4 
+  MP3-TestCases/TestCase7/B: F/ G/ H/ 
+  MP3-TestCases/TestCase7/C: I/ 
+  MP3-TestCases/TestCase7/f1: is a file
+  MP3-TestCases/TestCase7/f2: is a file
+    MP3-TestCases/TestCase7/A/D: f5 f6 f7 J/ K/ L/ 
+    MP3-TestCases/TestCase7/A/E: f7 f8 
+    MP3-TestCases/TestCase7/A/f4: is a file
+    MP3-TestCases/TestCase7/B/F: is empty
+    MP3-TestCases/TestCase7/B/G: M/ N/ 
+    MP3-TestCases/TestCase7/B/H: f10 f11 f12 f13 
+    MP3-TestCases/TestCase7/C/I: f14 
+      MP3-TestCases/TestCase7/A/D/f5: is a file
+      MP3-TestCases/TestCase7/A/D/f6: is a file
+      MP3-TestCases/TestCase7/A/D/f7: is a file
+      MP3-TestCases/TestCase7/A/D/J: is empty
+      MP3-TestCases/TestCase7/A/D/K: is empty
+      MP3-TestCases/TestCase7/A/D/L: is empty
+      MP3-TestCases/TestCase7/A/E/f7: is a file
+      MP3-TestCases/TestCase7/A/E/f8: is a file
+      MP3-TestCases/TestCase7/B/G/M: f9 
+      MP3-TestCases/TestCase7/B/G/N: is empty
+      MP3-TestCases/TestCase7/B/H/f10: is a file
+      MP3-TestCases/TestCase7/B/H/f11: is a file
+      MP3-TestCases/TestCase7/B/H/f12: is a file
+      MP3-TestCases/TestCase7/B/H/f13: is a file
+      MP3-TestCases/TestCase7/C/I/f14: is a file
+        MP3-TestCases/TestCase7/B/G/M/f9: is a file
+
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk3_10_7[?2004h[cssuwbstudent@KelvinLinuxMachine wk3_10_7]$ exit
+[?2004lexit
+
+Script done on 2025-10-10 12:46:18+00:00 [COMMAND_EXIT_CODE="0"]
