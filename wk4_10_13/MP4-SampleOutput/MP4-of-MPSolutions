@@ -1,0 +1,25 @@
+Script started on 2025-10-12 22:44:36+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="152" LINES="19"]
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk4_10_13/MP4-SampleOutput[?2004h[cssuwbstudent@KelvinLinuxMachine MP4-SampleOutput]$ pwd
+[?2004l/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/MP4-SampleOutput
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk4_10_13/MP4-SampleOutput[?2004h[cssuwbstudent@KelvinLinuxMachine MP4-SampleOutput]$ ../../../MP[K[K2025-Fall-MPs/MP4/FlattenContent ../../
+.git/           .gitignore      MP-Solutions/   Quiz-Solutions/ README.md       wk1_9_25/       wk2_9_29/       wk3_10_7/       wk4_10_13/
+[cssuwbstudent@KelvinLinuxMachine MP4-SampleOutput]$ ../../../2025-Fall-MPs/MP4/FlattenContent ../../MP-Solutions/
+[?2004lYour command: ../../../2025-Fall-MPs/MP4/FlattenContent ../../MP-Solutions/ 
+Flattening directory: "/home/cssuwbstudent/ksung/github/2025-Fall-ClassExamples/wk4_10_13/MP4-SampleOutput/../../MP-Solutions/"
+Total number of entries (files + directories): 11
+MP1/                     CoinAmounts              CoinAmounts.cpp          Makefile                 TestCases                
+MP2/                     Makefile                 NumCoins.cpp             NumCoins.o               test.out                 
+TestCases                
+Final debug check of entries:
+Entry 1: CoinAmounts              
+Entry 4: TestCases                
+Entry 6: Makefile                 
+Entry 9: test.out                 
+**Warning**: index(12) out of bounds of: 11
+**Warning**: index(18) out of bounds of: 11
+**Warning**: index(23) out of bounds of: 11
+**Warning**: index(70) out of bounds of: 11
+]0;cssuwbstudent@KelvinLinuxMachine:~/ksung/github/2025-Fall-ClassExamples/wk4_10_13/MP4-SampleOutput[?2004h[cssuwbstudent@KelvinLinuxMachine MP4-SampleOutput]$ exit
+[?2004lexit
+
+Script done on 2025-10-12 22:45:02+00:00 [COMMAND_EXIT_CODE="0"]
